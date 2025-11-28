@@ -1,0 +1,92 @@
+# R-related ignored files
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# RStudio files
+.Rproj.user/
+.Rproj.user/
+.Rproj.user/**
+
+# R package sources
+.Rcheck/
+
+# Produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# Knitr and R markdown default cache directories
+*_cache/
+cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# ShinyApp files
+rsconnect/
+
+# Ignore data files (if applicable)
+data/
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Mac specific files
+.DS_Store
+
+# Other specific project directories
+.vscode
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Other stuff
+.vscode
+.DS_Store
+.ipynb_checkpoints
+data/
+scr/Data Preprocessing.ipynb
+scr/archived
